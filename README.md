@@ -3,6 +3,10 @@ Gulp toolchain for creating a wordpress theme using jade-php and stylus (with je
 Browser-sync is included for ease of developing. The resulting *.php files are automatically prettified using
 gulp-prettify.
 
+## Attention!
+Gulp doesn't seem to like it when your copy of jastyleet-toolchain is not on the same drive as your lamp/mamp/wamp stack,
+so make sure that when your stack is installed on ```C:\...``` that the toolchain is on ```C:\...``` too.
+
 # Setup
 
 Assuming you already got a LAMP/MAMP/WAMP stack with wordpress installed:
