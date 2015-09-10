@@ -49,7 +49,7 @@ var mainStylusFile  = 'main.styl';
 ```
 
 # Usage
-To use the toolchain simply type ```gulp serve``'.
+To use the toolchain simply type ```gulp serve```.
 
 This will open a your offline wordpress site in a synced browser window/tab and silently watch all *.styl and *.jade files
 for changes and autocompile jade into corresponding *.php files and your main stylus file into 'style.css'.
