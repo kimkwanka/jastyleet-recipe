@@ -1,4 +1,4 @@
-# jastyleet-recioe
+# jastyleet-recipe
 A gulp recipe for creating a wordpress theme using jade-php and stylus (with jeet, rupture and kouto-swiss).
 Browser-sync is included for ease of developing. The resulting *.php files are automatically prettified using
 gulp-prettify.
