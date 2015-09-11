@@ -1,23 +1,27 @@
 {
-  "name": "jastyleet-toolchain",
-  "version": "1.0.0",
-  "description": "Develop WP Themes with jade-php, stylus & jeet and more using gulp for autocompile and browser-sync.",
-  "main": "gulpfile.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Kim Kwanka",
-  "license": "",
-  "devDependencies": {
-    "browser-sync": "^2.9.1",
-    "gulp": "^3.9.0",
-    "gulp-cached": "^1.1.0",
-    "gulp-jade-php": "^1.1.0",
-    "gulp-plumber": "^1.0.1",
-    "gulp-prettify": "^0.3.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-stylus": "^2.0.6",
-    "kouto-swiss": "^0.11.13",
-    "rupture": "^0.6.1"
-  }
+    "name": "jastyleet-recipe",
+    "version": "0.8.0",
+    "description": "Develop WP Themes with jade-php, stylus & jeet and more using gulp for autocompile and browser-sync.",
+    "main": "gulpfile.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Kim Kwanka",
+    "license": "",
+    "devDependencies": {
+        "browser-sync": "^2.9.1",
+        "gulp": "^3.9.0",
+        "gulp-cached": "^1.1.0",
+        "gulp-jade-php": "^1.1.0",
+        "gulp-plumber": "^1.0.1",
+        "gulp-prettify": "^0.3.0",
+        "gulp-rename": "^1.2.2",
+        "gulp-stylus": "^2.0.6",
+        "kouto-swiss": "^0.11.13",
+        "rupture": "^0.6.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kimkwanka/jastyleet-recipe.git"
+    }
 }
