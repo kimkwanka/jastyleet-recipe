@@ -1,5 +1,5 @@
 # jastyleet-recipe
-A gulp recipe for creating a wordpress theme using jade-php and stylus (with jeet, rupture and kouto-swiss).
+A gulp recipe for creating a wordpress theme using phpjade-mod and stylus (with jeet, rupture and kouto-swiss).
 Browser-sync is included for ease of developing. The resulting *.php files are automatically prettified using
 gulp-prettify.
 
@@ -49,10 +49,20 @@ var mainStylusFile  = 'main.styl';
 ```
 
 # Usage
-To use the toolchain simply type ```gulp serve```.
+To use the toolchain simply type ```gulp```.
 
 This will open a your offline wordpress site in a synced browser window/tab and silently watch all *.styl and *.jade files
 for changes and autocompile jade into corresponding *.php files and your main stylus file into 'style.css'.
+
+## Optional
+You can specify commandline options ```-w``` and / or ```-t```
+if you want to run the recipe in another wordpress install folder and / or theme without changing your gulpfile.
+
+### Example usage:
+```gulp -w "wordpress2"```
+```gulp -t "otherTheme"```
+```gulp -w "wordpress2" -t "otherTheme"```
+
     
 
 
