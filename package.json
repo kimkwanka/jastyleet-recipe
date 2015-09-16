@@ -8,7 +8,7 @@
   },
   "author": "Kim Kwanka",
   "license": "",
-  "devDependencies": {
+  "dependencies": {
     "browser-sync": "^2.9.1",
     "gulp": "^3.9.0",
     "gulp-batch": "^1.0.5",
