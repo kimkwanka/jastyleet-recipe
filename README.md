@@ -13,7 +13,7 @@ Assuming you already got a LAMP/MAMP/WAMP stack with wordpress installed:
 
 1.  Open the command line and navigate to where you downloaded jastyleet-toolchain
 2.  Type ```npm install```
-2.  Open ```gulpfile.js``` and change these 3 lines to match your project setup:
+2.  Open ```gulpfile.js``` and change these 4 lines to match your project setup:
     (Check your stack's manual for the localhost directory - this is the folder where all your web-facing files go)
   
 ```javascript
@@ -22,7 +22,7 @@ Assuming you already got a LAMP/MAMP/WAMP stack with wordpress installed:
                                                     //be something like "C:/wamp/www/"
     var wpInstallName = 'wordpress';                //the subfolder within your 'htdocs' where wordpress is installed
     var themeName = 'your_theme_name';              //this is the name of your theme folder
-    var mainStylusFile  = 'you_stylus_file';        //this is the name of your main stylus file
+    var mainStylusFile  = 'your_stylus_file';        //this is the name of your main stylus file
 ```
 ## Example:
 Let's say you installed wordpress into
@@ -59,9 +59,11 @@ You can specify commandline options ```-w``` and / or ```-t```
 if you want to run the recipe in another wordpress install folder and / or theme without changing your gulpfile.
 
 ### Example usage:
-```gulp -w "wordpress2"```
-```gulp -t "otherTheme"```
-```gulp -w "wordpress2" -t "otherTheme"```
+``` 
+gulp -w "wordpress2"
+gulp -t "otherTheme"
+gulp -w "wordpress2" -t "otherTheme"
+```
 
     
 
